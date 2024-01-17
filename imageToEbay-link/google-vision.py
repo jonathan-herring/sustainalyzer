@@ -1,9 +1,10 @@
 import os
+import glob
 from google.cloud import storage, vision
 from google.cloud.vision import types
 
 # Path to your credentials JSON file
-credentials_path = 'path/to/your/credentials.json'
+credentials_path = '/lib/sustainalyzer/image->ebay-link/plexiform-crane-411108-c2e2654f5576.json'
 
 # Set credentials from environment variable
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credentials_path
@@ -30,12 +31,15 @@ def detect_web_entities(gcs_path):
     web_entities = response.web_detection.web_entities
     return web_entities
 
-# Example usage
-bucket_name = 'your-gcs-bucket-name'
-local_image_path = 'path/to/your/local/image.jpg'
-destination_blob_name = 'my-image.jpg'
+# Get the most recent image file from the server
+list_of_files = glob.glob('/lib/sustainalyzer/uploads')
+latest_image = max(list_of_files, key=os.path.getctime)
 
-upload_to_gcs(bucket_name, local_image_path, destination_blob_name)
+# Example usage
+bucket_name = 'sustainalyzer'  # Replace with your actual bucket name
+destination_blob_name = os.path.basename(latest_image)
+
+upload_to_gcs(bucket_name, latest_image, destination_blob_name)
 
 gcs_path = f'gs://{bucket_name}/{destination_blob_name}'
 entities = detect_web_entities(gcs_path)
