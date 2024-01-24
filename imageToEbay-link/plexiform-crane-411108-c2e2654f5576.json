@@ -1,13 +1,12 @@
 {
   "type": "service_account",
-  "project_id": "plexiform-crane-411108",
-  "private_key_id": "c2e2654f557694b730b67bdac2642118deaff5fd",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDYDgc2VviglrU4\nkhrqw9f1ZJrHDArIyL1RDm6c+jA8g+eySMcet/5hH9sLlaw0uLzIpGq7d6U1+FOa\ny4yPEf0y8FCe0ZHKMlYzuWXEHTKXDN5jbQYxPXh0/28F6OSp6Hz17WwExMqa5Qs6\nBn0HmtCumHSvWBUHbNIn75kepp5YfBWzK8yYMs0qwCue/KRZLocpCB+ZVgxlYOaJ\n2CNQT9tcFot0H7bdn+vlT7zh2/+CSDjZEdm6q0dg6sLaRHpEap3+Mxw7qIB9Isr8\nWrBJ1VivzRsQXU2RnDhWC7KUN1gd6e45qKIgo/tbZEnhSv+Vuzsk1zXuFdweqFNe\ndNE5kd4rAgMBAAECggEAAmyXT4aOVRYlaP85jwMlQMxwZnegdnhk27kmWg7VTwrB\nr1pxVdV7WoDJ8JTgUk/WVP1G9ySZlsZ0qdonREBAZrPldo82AzgKnAHYJxc6xvJD\nUWkI+SHJBHArb2U9eNvGmwEAeNps+Yqgzx6arYiqimWICm/cgxpQ21dBi8nWDOEY\nLodt7ASMm8pmkY5xEQEv1NtdjXm0PMNmXp8gbJjvYUwcuuy9ttpZDRZUT73avSTt\nO3XgLWbTx9yXxq7HPLV6Bcy/N83v0OCdLREQt2W1m1k5xCu7XMgKTTfXuuYE0IP1\nUGqPYE7xgwGNFNJf9EVakDLy8/aFdrVBB5UD4hbGDQKBgQD1xStQQgcI/BnVnIho\nLPztXOUukzgc7uFfs4CRJzAchyXovdNuGPvFmYuUR/hkXf6LQYC83PGYab6rAHGy\nlLG7nuJp7ZDQhnvvKQiZ3m9dYQZB0Sj0PDW044pbap75lG3YYNO9LQPOYWEkdzng\nykBGgUpblsKWqU+2l1yMLXTspwKBgQDhDDkvx0xO36PZvToGfM3VKSATlG4X4RI6\nScIXnxu6kr9mNrOOazQouIDrbCYLaOr4xgUHlr0CxfDVdmIS44U3bkLMsmnzyjDr\nL2OKy1YXWPV8rZtS2oVH5vvchRjFppBQ2CwT59Z9/7+lgsPgdIiR4arvUNS8EqLE\nRZmA96oe3QKBgFmhj7tUaTZooo9Z6BF+Hrv+PgLvY+6BXCZH06KcVRqCW1v3Js2n\nROL6rYHlgXwxH2zv9aBrP5zjK8s3fT+wpOUU++O/5Sl3cml1YJKlIZ4/jUWhnzr7\nXmba+RF/3/yLmkfogDAk45d3wjLHXI9Tk39jFZgzckH5+31O1Ey3I0ZPAoGBANNz\nEbRTtN4TATfPtNptn1ReTLY462xiXCcKMGTTaVFXGqEmWnVBQwPTv8Xzmpdz3/sY\ny5cCydr2Mr/OeH246u1XG0qLhEO8wVPo9cVuIhjTy+x2jg8+JKaXYCQlpk3nn4dm\nZZvaZE2E5APWJscZl0xCVcKAFzIS7H4vyvhDO8O9AoGBAKO+En7J8OctjkYhzIco\nF0t7xCtCiSBtLoo6j61rI2TjCp9yjk3+pYq33g3P2xQRZLnU1d59kvFZhmT5TDRe\ndfwuy3sRzIzT4rAE95Yio/GVO1vSSqqF3fJmJ9uppGNQc1x8zSA17kPrGqpKvRfr\nIkpjUJfEYXqGAxIAsZRHS3aM\n-----END PRIVATE KEY-----\n",
+  "project_id": "",
+  "private_key_id": "",
+  "private_key": "\n-----END PRIVATE KEY-----\n",
   "client_email": "sustainalyzer@plexiform-crane-411108.iam.gserviceaccount.com",
-  "client_id": "116950384189747538697",
+  "client_id": "",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sustainalyzer%40plexiform-crane-411108.iam.gserviceaccount.com",
   "universe_domain": "googleapis.com"
 }
